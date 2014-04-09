@@ -4,7 +4,7 @@ Using Snapr
 Installation
 ------------
 
-Snapr is available on Packagist ([Snapt/snapr](http://packagist.org/packages/Snapt/snapr))
+Snapr is available on Packagist ([snapt/snapr](http://packagist.org/packages/snapt/snapr))
 and as such installable via [Composer](http://getcomposer.org/).
 
 ```bash
@@ -35,7 +35,7 @@ You really should use a mini web server or something like that. However, you can
 php server in the backgroud like so
 
 ```bash
-nohup php -S 0.0.0.0:85 ./server.php > /dev/null &
+nohup php -S 0.0.0.0:8081 ./server.php > /dev/null &
 ```
 
 Querying Information
