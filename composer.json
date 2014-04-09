@@ -2,7 +2,7 @@
     "name": "snapt/snapr",
     "description": "API for collecting stats from remote HAProxy nodes",
     "keywords": ["haproxy", "log", "logging", "api", "snapt"],
-    "homepage": "http://github.com/Snapt/snapr",
+    "homepage": "https://github.com/Snapt/snapr",
     "type": "project",
     "license": "BSD",
     "authors": [
