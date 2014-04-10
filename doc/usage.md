@@ -8,7 +8,7 @@ Snapr is available on Packagist ([snapt/snapr](http://packagist.org/packages/sna
 and as such installable via [Composer](http://getcomposer.org/).
 
 ```bash
-composer create-project "snapt/snapr=1.0.*@dev" 
+composer create-project "snapt/snapr" 
 ```
 
 Once installed two files will be created in config/ by composer, api_keys.php and server_id.php. 
