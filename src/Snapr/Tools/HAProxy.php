@@ -45,10 +45,8 @@ class HAProxy
         if(preg_match($pattern, $contents, $matches)){
             $match = preg_split("/[\s,]+/", $matches[0]);
             
-            foreach ($match as $i => $m) {
-                
-                if ($m == 'socket') {
-                    
+            foreach ($match as $i => $m) {                
+                if ($m == 'socket') {                    
                     $path = $match[$i+1];
                     return $path;
                 }
@@ -96,11 +94,24 @@ class HAProxy
                 }
             break;
             
-            // Session [single and all]
+            // Sessions [all]
             case "sessions":                
                 foreach ($data as $line) {
+                    
                     $line = split(': ', $line);
-                    if (isset($line[1])) $responseArray[$line[0]] = $line[1];
+                    
+                    if (isset($line[1])) {                 
+                        $return = array();
+                               
+                        $line[1] = explode(' ', $line[1]);
+                        
+                        foreach ($line[1] as $item) {
+                            list($lhs, $rhs) = explode('=', $item);
+                            $return[$lhs] = $rhs;
+                        }
+                        
+                        $responseArray[$line[0]] = $return;
+                    }
                 }
             break;          
             
