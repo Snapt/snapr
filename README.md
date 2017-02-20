@@ -1,6 +1,6 @@
 snapr - HAProxy stats API
 ==============================
-[![Latest Dev Version](https://poser.pugx.org/snapt/snapr/v/dev.png)](https://packagist.org/packages/snapt/snapr) [![Latest Stable Version](https://poser.pugx.org/snapt/snapr/v/stable.png)](https://packagist.org/packages/snapt/snapr) [![Total Downloads](https://poser.pugx.org/snapt/snapr/downloads.png)](https://packagist.org/packages/snapt/snapr)
+[![Latest Stable Version](https://poser.pugx.org/snapt/snapr/v/stable.png)](https://packagist.org/packages/snapt/snapr) [![Total Downloads](https://poser.pugx.org/snapt/snapr/downloads.png)](https://packagist.org/packages/snapt/snapr)
 
 snapr allows REST queries via HTTP in order to expose detailed haproxy statistics and 
 allow various program control functions like enabling and disabling servers. This is 
@@ -37,7 +37,7 @@ Bugs and feature request are tracked on [GitHub](https://github.com/Snapt/snapr/
 Author
 ------
 
-Snapt - <sales@snapt.net> - <http://www.snapt.net><br />
+Snapt - <sales@snapt.net> - <https://www.snapt.net><br />
 See also the list of [contributors](https://github.com/Snapt/snapr/contributors) which participated in this project.
 
 License
